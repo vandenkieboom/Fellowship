@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Tolkien';
-  src: url('/assets/fonts/Tolkienuncialmf-q3Ad.ttf') format('truetype');
+  src: url('../assets/fonts/Tolkienuncialmf-q3Ad.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
 }
 
 body {
@@ -131,7 +131,7 @@ h1 {
 }
 
 .btn {
-  z-index: 100000;
+  z-index: 100;
 }
 
 textarea:focus,
@@ -199,6 +199,10 @@ input[type="color"],
   background-color: #ffffffd5;
   /* box-shadow: 0px 0px 3px #000000; */
   border: solid black 1px;
+}
+
+form {
+  z-index: 10000;
 }
 
 
